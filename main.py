@@ -34,7 +34,7 @@ def find_mismatch(text):
 
 
 def main():
-    inputMode = input("Enter the mode")
+    inputMode = input()
     if(inputMode == "I"):
         text = input()    
     elif(inputMode == "F"):
