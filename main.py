@@ -34,15 +34,12 @@ def find_mismatch(text):
 
 
 def main():
-    #inputMode = input()
-    #if(inputMode == "I\n"):
-    #    text = input()    
-    #elif(inputMode == "F\n"):
-    #    #Do something...
-    #    print()
-    #else:
-    #    return
-    text = input()
+    inputMode = input()
+    if("I" in inputMode)):
+        text = input()    
+    elif("F" in inputMode):
+        #Do something...
+        print()
     mismatch = find_mismatch(text)
     if mismatch == 0:
         print("Success")
