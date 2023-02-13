@@ -40,6 +40,8 @@ def main():
     elif("F" in inputMode):
         #Do something...
         print()
+    else:
+        return
     mismatch = find_mismatch(text)
     if mismatch == 0:
         print("Success")
